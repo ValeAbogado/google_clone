@@ -1,0 +1,277 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+
+}
+header {
+    height: 67px;
+    /*border:solid rgb(206, 21, 0) 3px;*/
+}
+nav {
+    height: 47px;
+    /*border:solid black 3px;*/
+    display:flex;
+    justify-content:right;
+    align-items:center;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif; /*sirve para cambiar el tipo de letra*/
+    font-size: 13px ;
+}
+
+.imagenes1 {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80px;
+}
+.menu {
+    height: 40px;
+    width: 24px;
+    height: 24px;
+}
+.avatar {
+    height: 40px;
+    border-radius: 50%;
+}
+
+.links {
+    margin-right: 15 px;
+    display:flex;
+    width: 150px;
+    justify-content: space-around;
+
+}
+.menu {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    
+}
+.circulo {
+    position:relative;
+    width:fit-content;
+}
+
+.circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40px; /* Tamaño personalizado */
+    height: 40px; /* Tamaño personalizado */
+    border-radius: 50%;
+}
+.circle {
+    background-color: none;
+}
+.circle :hover{
+    background-color:rgba(128, 128, 128, 0.5);   
+}
+
+
+/*lo siguiente es para hacer que el texto solo se deline cuando le acerco el cursor*/
+.links a{
+    text-decoration: none;
+}
+.links a:hover {
+    text-decoration: underline;
+}
+/*aqui termina*/
+
+.section {
+    /*border: solid;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gogle {
+    /*border: solid;*/
+    height: 90px
+}
+section {
+    /*border: solid blue;*/
+    display: flex;
+    justify-content: center;
+    height: 142px;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+.rectangulo1 {
+    display: flex;
+    border:1px solid #dfe1e5;
+    height: 41px;
+    width: 560px;
+    border-radius: 24px;
+    align-items: center;
+    justify-content: space-between;
+    cursor: text;
+}
+
+.rectangulo1 h {
+    border: none;
+}
+.rectangulo1 h:hover {
+    border: solid #b9b9b9c7 1px;
+}
+
+.lupa {
+    height: 15px;
+    padding: 15px;
+}
+.microfono {
+    height: 24px;
+    padding: 8px;
+    cursor:pointer;
+}
+.camara {
+    height: 24px;
+    width: 24px;
+    padding: 8px;
+    padding-right: 15px;
+    cursor: pointer;
+}
+
+.rectangulo2 {
+    display: flex;
+    height: 41px;
+    width: 560px;
+    align-items: center;  
+    justify-content: center;
+    padding-top: 20px;
+}
+.buscar1 {
+    min-height: 34px;
+    background-color: #f8f9fa;
+    min-width: 54px;
+    padding: 0px 16px;
+    border:1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    margin:11px 4px ;
+    display: flex;
+    align-items:center ;
+    cursor: pointer;
+    user-select: none;
+}
+.buscar h {
+    border: none;
+}
+.buscar h:hover {
+    border: solid #b9b9b9c7 1px;
+}
+.suerte1 {
+    min-height: 34px;
+    background-color: #f8f9fa;
+    min-width: 54px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border:1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    margin:11px 4px ;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+}
+.suerte h {
+    border: none;
+}
+.suerte h:hover {
+   border: solid #b9b9b9c7 1px;
+   
+}
+/*------------------------------------------------*/
+.idioma {
+    height: 28px;
+    margin-bottom: 151px;
+    display: flex;
+    justify-content:center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.idioma a{
+    text-decoration: none;
+}
+.idioma a:hover {
+    text-decoration: underline;
+}
+
+/* --------------------------------------------- */
+.final {
+    height: 17px;
+    background-color: #f0f0f0;
+    color: #70757a;
+    padding: 15px 30px;
+    border-bottom: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: #3c4043 1px;
+    font-size: 15px;
+}
+.mx {
+    cursor: pointer;
+}
+/* --------------------------------------------------- */
+.ultimo {
+    background-color: #f0f0f0;
+    color: #70757a;
+    display: flex;
+    height: 50px;
+    padding: 0px 20px;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.p {
+    padding: 15px;
+    white-space: nowrap;
+    cursor: pointer;
+    height: 16px;
+
+}
+
+.pp {
+    padding: 15px;
+    white-space: nowrap;
+    cursor: pointer;
+    height: 16px;
+}
+.ppp {
+    padding: 15px;
+    white-space: nowrap;
+    cursor: pointer;
+    height: 16px;
+}
+.pppp {
+    padding: 15px;
+    white-space: nowrap;
+    cursor: pointer;
+    height: 16px;
+}
+.n {
+    padding: 15px;
+    white-space: nowrap;
+    cursor: pointer;
+    height: 16px;
+}
+.nn {
+    padding: 15px;
+    white-space: nowrap;
+    cursor: pointer;
+    height: 16px;
+}
+.nnn {
+    padding: 15px;
+    white-space: nowrap;
+    cursor: pointer;
+    height: 16px;
+}
